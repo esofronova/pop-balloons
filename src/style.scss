@@ -1,0 +1,35 @@
+.pop-balloons {
+   .gradient-text {
+      background: linear-gradient(to right, #ff52f2, #012fb0);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      font-size: 1.4rem;
+   }
+
+   .circles {
+      width: 600px;
+
+      .circle {
+         width: 100px;
+         height: 100px;
+      }
+   }
+
+   .gameover {
+      font-size: 4em;
+      text-align: center;
+      color: white;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   }
+
+   .start-again {
+      background-color: darkblue;
+      border-radius: 0.7rem;
+
+      &:hover {
+         background-color: rgb(0, 0, 206);
+      }
+   }
+}
